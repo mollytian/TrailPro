@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20263D021E510B9E00CE8A96 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20263D011E510B9E00CE8A96 /* MapKit.framework */; };
+		20263D041E510BA500CE8A96 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20263D031E510BA500CE8A96 /* CoreLocation.framework */; };
+		20263D061E510BAC00CE8A96 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20263D051E510BAC00CE8A96 /* UIKit.framework */; };
+		20263D081E510BB400CE8A96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20263D071E510BB400CE8A96 /* CoreGraphics.framework */; };
+		20263D0A1E510BBA00CE8A96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20263D091E510BBA00CE8A96 /* Foundation.framework */; };
+		207EADEB1E50CA7C0042EA04 /* TrailMapOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207EADEA1E50CA7C0042EA04 /* TrailMapOverlay.swift */; };
+		207EADED1E50CAF90042EA04 /* TrailMapOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207EADEC1E50CAF90042EA04 /* TrailMapOverlayView.swift */; };
+		209B43401E4DFCDA0068D8F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209B433F1E4DFCDA0068D8F4 /* AppDelegate.swift */; };
+		209B43421E4DFCDA0068D8F4 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209B43411E4DFCDA0068D8F4 /* MapViewController.swift */; };
+		209B43451E4DFCDA0068D8F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209B43431E4DFCDA0068D8F4 /* Main.storyboard */; };
+		209B43481E4DFCDA0068D8F4 /* TrailPro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 209B43461E4DFCDA0068D8F4 /* TrailPro.xcdatamodeld */; };
+		209B434A1E4DFCDA0068D8F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209B43491E4DFCDA0068D8F4 /* Assets.xcassets */; };
+		209B434D1E4DFCDA0068D8F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209B434B1E4DFCDA0068D8F4 /* LaunchScreen.storyboard */; };
+		209B43581E4DFCDA0068D8F4 /* TrailProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209B43571E4DFCDA0068D8F4 /* TrailProTests.swift */; };
+		209B43631E4E03E60068D8F4 /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209B43621E4E03E60068D8F4 /* Trail.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		209B43541E4DFCDA0068D8F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 209B43341E4DFCDA0068D8F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 209B433B1E4DFCDA0068D8F4;
+			remoteInfo = TrailPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20263D011E510B9E00CE8A96 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		20263D031E510BA500CE8A96 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		20263D051E510BAC00CE8A96 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		20263D071E510BB400CE8A96 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		20263D091E510BBA00CE8A96 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		207EADEA1E50CA7C0042EA04 /* TrailMapOverlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailMapOverlay.swift; sourceTree = "<group>"; };
+		207EADEC1E50CAF90042EA04 /* TrailMapOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailMapOverlayView.swift; sourceTree = "<group>"; };
+		209B433C1E4DFCDA0068D8F4 /* TrailPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrailPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		209B433F1E4DFCDA0068D8F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		209B43411E4DFCDA0068D8F4 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		209B43441E4DFCDA0068D8F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		209B43471E4DFCDA0068D8F4 /* TrailPro.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrailPro.xcdatamodel; sourceTree = "<group>"; };
+		209B43491E4DFCDA0068D8F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		209B434C1E4DFCDA0068D8F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		209B434E1E4DFCDA0068D8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209B43531E4DFCDA0068D8F4 /* TrailProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrailProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		209B43571E4DFCDA0068D8F4 /* TrailProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailProTests.swift; sourceTree = "<group>"; };
+		209B43591E4DFCDA0068D8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		209B43621E4E03E60068D8F4 /* Trail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		209B43391E4DFCDA0068D8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20263D0A1E510BBA00CE8A96 /* Foundation.framework in Frameworks */,
+				20263D081E510BB400CE8A96 /* CoreGraphics.framework in Frameworks */,
+				20263D061E510BAC00CE8A96 /* UIKit.framework in Frameworks */,
+				20263D041E510BA500CE8A96 /* CoreLocation.framework in Frameworks */,
+				20263D021E510B9E00CE8A96 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209B43501E4DFCDA0068D8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20263CFF1E51068A00CE8A96 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				207EADEA1E50CA7C0042EA04 /* TrailMapOverlay.swift */,
+				207EADEC1E50CAF90042EA04 /* TrailMapOverlayView.swift */,
+			);
+			name = Overlay;
+			sourceTree = "<group>";
+		};
+		20263D001E510B9E00CE8A96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20263D091E510BBA00CE8A96 /* Foundation.framework */,
+				20263D071E510BB400CE8A96 /* CoreGraphics.framework */,
+				20263D051E510BAC00CE8A96 /* UIKit.framework */,
+				20263D031E510BA500CE8A96 /* CoreLocation.framework */,
+				20263D011E510B9E00CE8A96 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		207EADEE1E50CB050042EA04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				209B43621E4E03E60068D8F4 /* Trail.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		207EADEF1E50CB1D0042EA04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				209B433F1E4DFCDA0068D8F4 /* AppDelegate.swift */,
+				209B43491E4DFCDA0068D8F4 /* Assets.xcassets */,
+				209B434B1E4DFCDA0068D8F4 /* LaunchScreen.storyboard */,
+				209B434E1E4DFCDA0068D8F4 /* Info.plist */,
+				209B43461E4DFCDA0068D8F4 /* TrailPro.xcdatamodeld */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		209B43331E4DFCDA0068D8F4 = {
+			isa = PBXGroup;
+			children = (
+				209B433E1E4DFCDA0068D8F4 /* TrailPro */,
+				209B43561E4DFCDA0068D8F4 /* TrailProTests */,
+				209B433D1E4DFCDA0068D8F4 /* Products */,
+				20263D001E510B9E00CE8A96 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		209B433D1E4DFCDA0068D8F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				209B433C1E4DFCDA0068D8F4 /* TrailPro.app */,
+				209B43531E4DFCDA0068D8F4 /* TrailProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		209B433E1E4DFCDA0068D8F4 /* TrailPro */ = {
+			isa = PBXGroup;
+			children = (
+				207EADEE1E50CB050042EA04 /* Model */,
+				20263CFF1E51068A00CE8A96 /* Overlay */,
+				209B43411E4DFCDA0068D8F4 /* MapViewController.swift */,
+				209B43431E4DFCDA0068D8F4 /* Main.storyboard */,
+				207EADEF1E50CB1D0042EA04 /* Supporting Files */,
+			);
+			path = TrailPro;
+			sourceTree = "<group>";
+		};
+		209B43561E4DFCDA0068D8F4 /* TrailProTests */ = {
+			isa = PBXGroup;
+			children = (
+				209B43571E4DFCDA0068D8F4 /* TrailProTests.swift */,
+				209B43591E4DFCDA0068D8F4 /* Info.plist */,
+			);
+			path = TrailProTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		209B433B1E4DFCDA0068D8F4 /* TrailPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209B435C1E4DFCDA0068D8F4 /* Build configuration list for PBXNativeTarget "TrailPro" */;
+			buildPhases = (
+				209B43381E4DFCDA0068D8F4 /* Sources */,
+				209B43391E4DFCDA0068D8F4 /* Frameworks */,
+				209B433A1E4DFCDA0068D8F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrailPro;
+			productName = TrailPro;
+			productReference = 209B433C1E4DFCDA0068D8F4 /* TrailPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		209B43521E4DFCDA0068D8F4 /* TrailProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 209B435F1E4DFCDA0068D8F4 /* Build configuration list for PBXNativeTarget "TrailProTests" */;
+			buildPhases = (
+				209B434F1E4DFCDA0068D8F4 /* Sources */,
+				209B43501E4DFCDA0068D8F4 /* Frameworks */,
+				209B43511E4DFCDA0068D8F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				209B43551E4DFCDA0068D8F4 /* PBXTargetDependency */,
+			);
+			name = TrailProTests;
+			productName = TrailProTests;
+			productReference = 209B43531E4DFCDA0068D8F4 /* TrailProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		209B43341E4DFCDA0068D8F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Molly Tian";
+				TargetAttributes = {
+					209B433B1E4DFCDA0068D8F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UUSC89UF5A;
+						ProvisioningStyle = Automatic;
+					};
+					209B43521E4DFCDA0068D8F4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UUSC89UF5A;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 209B433B1E4DFCDA0068D8F4;
+					};
+				};
+			};
+			buildConfigurationList = 209B43371E4DFCDA0068D8F4 /* Build configuration list for PBXProject "TrailPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 209B43331E4DFCDA0068D8F4;
+			productRefGroup = 209B433D1E4DFCDA0068D8F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				209B433B1E4DFCDA0068D8F4 /* TrailPro */,
+				209B43521E4DFCDA0068D8F4 /* TrailProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		209B433A1E4DFCDA0068D8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B434D1E4DFCDA0068D8F4 /* LaunchScreen.storyboard in Resources */,
+				209B434A1E4DFCDA0068D8F4 /* Assets.xcassets in Resources */,
+				209B43451E4DFCDA0068D8F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209B43511E4DFCDA0068D8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		209B43381E4DFCDA0068D8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207EADEB1E50CA7C0042EA04 /* TrailMapOverlay.swift in Sources */,
+				209B43481E4DFCDA0068D8F4 /* TrailPro.xcdatamodeld in Sources */,
+				209B43421E4DFCDA0068D8F4 /* MapViewController.swift in Sources */,
+				209B43631E4E03E60068D8F4 /* Trail.swift in Sources */,
+				209B43401E4DFCDA0068D8F4 /* AppDelegate.swift in Sources */,
+				207EADED1E50CAF90042EA04 /* TrailMapOverlayView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209B434F1E4DFCDA0068D8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				209B43581E4DFCDA0068D8F4 /* TrailProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		209B43551E4DFCDA0068D8F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 209B433B1E4DFCDA0068D8F4 /* TrailPro */;
+			targetProxy = 209B43541E4DFCDA0068D8F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		209B43431E4DFCDA0068D8F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209B43441E4DFCDA0068D8F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		209B434B1E4DFCDA0068D8F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				209B434C1E4DFCDA0068D8F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		209B435A1E4DFCDA0068D8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		209B435B1E4DFCDA0068D8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		209B435D1E4DFCDA0068D8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UUSC89UF5A;
+				INFOPLIST_FILE = TrailPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mollytian.TrailPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		209B435E1E4DFCDA0068D8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UUSC89UF5A;
+				INFOPLIST_FILE = TrailPro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mollytian.TrailPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		209B43601E4DFCDA0068D8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UUSC89UF5A;
+				INFOPLIST_FILE = TrailProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mollytian.TrailProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailPro.app/TrailPro";
+			};
+			name = Debug;
+		};
+		209B43611E4DFCDA0068D8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = UUSC89UF5A;
+				INFOPLIST_FILE = TrailProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mollytian.TrailProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrailPro.app/TrailPro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		209B43371E4DFCDA0068D8F4 /* Build configuration list for PBXProject "TrailPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B435A1E4DFCDA0068D8F4 /* Debug */,
+				209B435B1E4DFCDA0068D8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209B435C1E4DFCDA0068D8F4 /* Build configuration list for PBXNativeTarget "TrailPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B435D1E4DFCDA0068D8F4 /* Debug */,
+				209B435E1E4DFCDA0068D8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		209B435F1E4DFCDA0068D8F4 /* Build configuration list for PBXNativeTarget "TrailProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				209B43601E4DFCDA0068D8F4 /* Debug */,
+				209B43611E4DFCDA0068D8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		209B43461E4DFCDA0068D8F4 /* TrailPro.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				209B43471E4DFCDA0068D8F4 /* TrailPro.xcdatamodel */,
+			);
+			currentVersion = 209B43471E4DFCDA0068D8F4 /* TrailPro.xcdatamodel */;
+			path = TrailPro.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 209B43341E4DFCDA0068D8F4 /* Project object */;
+}
